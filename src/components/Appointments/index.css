@@ -1,0 +1,112 @@
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+
+.card {
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputSection {
+  display: flex;
+  border-bottom: 2px solid #b5b7c4;
+  padding-bottom: 15px;
+}
+
+.inputform {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 22px;
+  color: #171f46;
+  font-weight: 700;
+}
+
+.label {
+  font-size: 15px;
+  color: #b5b7c4;
+}
+
+.input {
+  max-width: 380px;
+  border: 1px solid #b5b7c4;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+
+.mainimg {
+  display: none;
+}
+
+.submitbutton {
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  width: 80px;
+}
+
+.appointmentheading {
+  font-size: 22px;
+  color: #171f46;
+  font-weight: 700;
+}
+
+.appointmentsContainer {
+  padding: 0;
+}
+
+.starredheadingContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.starredbutton {
+  background-color: #8b5cf6;
+  border: 1px solid #8b5cf6;
+  color: #ffffff;
+  align-self: center;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.starbutton {
+  align-self: center;
+  color: #8b5cf6;
+  background-color: transparent;
+  border: 1px solid #8b5cf6;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+@media (min-width: 768px) {
+  .mainimg {
+    display: inline;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .inputform {
+    width: 50%;
+  }
+}
